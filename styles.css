@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-size: 14px;
+	background-color: #EEE;
+	font-family: "Open Sans", sans-serif;
+}
+
+section{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+table{
+    font-family: monospace;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0.4em 0.8em;
+    border: 1px solid black;
+}
+
+table tr:first-child{
+    font-weight: bold;
+}
+
+table tr:nth-last-child(2) td:nth-child(2),
+table tr:nth-last-child(2) td:nth-child(4),
+table tr:nth-last-child(2) td:nth-child(5){
+    background: silver;
+    font-weight: bold;
+}
+
+/* ============================ */
+
+.no-select{
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input[type=number]{ 
+    margin: 0;
+    border: 0;
+    width: 2em;
+    background: transparent;
+    border-bottom: 1px solid black;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+input[type=button]{
+    display: inline;
+    margin: 0 0;
+}
+
+.inline{
+    float: left;
+    display: inline-block;
+}
+
+.bigmono{
+    font-size: 2em;
+    font-family: monospace;
+}
+
+
+#answer{
+    display: block;
+    margin: 20px 0;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+#nax, #nby{
+    text-align: right;
+}
