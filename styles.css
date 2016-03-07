@@ -14,9 +14,10 @@ section{
 }
 
 table{
-    font-family: monospace;
+    margin: 4px 0;
     border: 1px solid black;
     text-align: center;
+    font-family: monospace;
     border-collapse: collapse;
 }
 
@@ -78,7 +79,7 @@ input[type=button]{
 
 #answer{
     display: block;
-    margin: 20px 0;
+    margin: 10px 0;
     font-family: monospace;
     font-size: 1.2em;
 }
